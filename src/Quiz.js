@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-let quizData = required('./quiz_data.json')
+let quizData = require('./quiz_data.json')
 
-class Quiz extends React.Component{
+class Quiz extends React Component{
   render() {
     return(
       <div />
