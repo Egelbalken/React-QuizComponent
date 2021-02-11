@@ -4,7 +4,10 @@ let quizData = required('./quiz_data.json')
 
 class Quiz extends React.Component{
   render() {
-    <div className="QuizQuestion"></div>
+    return(
+      <div />
+      <Quiz />
+      )
 
     constructor(props){
       super(props);
